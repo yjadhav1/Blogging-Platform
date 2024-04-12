@@ -1,0 +1,53 @@
+/* CreatePost.css */
+
+/* Center the form */
+form {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Center the header */
+.Header {
+  text-align: center;
+}
+
+/* Style the input fields */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+/* Style the dropdown options */
+select option {
+  padding: 8px;
+}
+
+/* Add any other styling you need for your form components */

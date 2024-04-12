@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: #333;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.recommendation {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.recommendation-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.recommendation-box > * + * {
+  margin-top: 5px;
+}

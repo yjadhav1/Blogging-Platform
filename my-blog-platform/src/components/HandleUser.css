@@ -1,0 +1,45 @@
+/* admin.css */
+
+/* Style for the table container */
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style for the table */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style for table headers */
+th {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for table cells */
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Style for buttons */
+button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* Style for buttons on hover */
+button:hover {
+  background-color: #0056b3;
+}
